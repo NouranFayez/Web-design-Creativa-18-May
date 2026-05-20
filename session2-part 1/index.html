@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form autocomplete="off" action="thank.html" method="post">
+        <label>First Name</label>
+        <input type="text" value="Mazen" disabled placeholder="Enter First Name" name="firstName">
+        <input type="text" value="Nouran" placeholder="Enter First Name" name="firstName">
+        <br>
+        <label>Email</label>
+        <input type="email" autocomplete="off" autofocus placeholder="Enter Email Address" name="userEmail"> <br>
+        <input type="password" placeholder="enter your Password" name="userPassword">
+        <br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="Male"> <label>Male</label>
+        <input type="radio" name="gender" value="Female"> <label>Female</label>
+        <!-- firstName=&userEmail=sdfgh%40erfghjk&userPassword=wsdfghjk&gender=on -->
+        <label>Courses</label>
+        <input type="checkbox" name="courses" value="0"> <label>Html</label>
+        <input type="checkbox" name="courses" value="1"> <label>Css</label>
+        <input type="checkbox" name="courses" value="2"> <label>Bootstrap</label>
+        <input type="checkbox" name="courses" value="3"> <label>JS</label>
+
+
+
+        <!-- &courses=0&courses=1&courses=2 -->
+
+        <br>
+        <!-- <label>Choose Your Course</label> -->
+        <select name="userCourse" id="" required>
+            <option value="" disabled selected>Choose Your Course</option>
+            <option value="0">Html</option>
+            <option value="1">Html</option>
+            <option value="2">Html</option>
+            <option value="3">Html</option>
+        </select>
+        <!-- &userCourse=Choose+Your+Course -->
+        <!-- =&userCourse= -->
+
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="10" max="35">
+        <br>
+        <input type="date" name="DOB">
+        <input type="datetime-local">
+        <input type="month">
+        <input type="color">
+        <input type="range" name="range" max="300" min="100" value="100">
+
+        <input type="text" maxlength="10" minlength="5" required>
+
+        <textarea name="" id="" placeholder="Address" cols="30" rows="5"></textarea>
+        <br>
+
+        <input type="file" multiple>
+
+        <input type="text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="please enter at least 1 number , 1 uppercase , 1 lowercase">
+
+
+
+
+
+
+
+
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+        <button>Register</button>
+
+        <button type="button">Load More</button>
+    </form>
+
+
+
+    <!-- ?firstName=dfghjkl&userEmail=dfghjk%40dfghjkl -->
+
+
+
+    <!-- first Name ==> accepte letters only  -->
+    <!-- image ==> .png -->
+    <!-- password ==> uppercase lowercase , numbers , special character -->
+    <!-- id ==> 10 : 14 -->
+    <!-- phone => 11 number  -->
+    <!-- address ==> textarea -->
+    <!-- courses select with filter -->
+    <!-- date of Birth ==> required -->
+    <!-- autoFocus on firstName -->
+    <!-- gender ==> required -->
+    <!-- range ==> 50 : 200 -->
+     
+
+</body>
+
+</html>
