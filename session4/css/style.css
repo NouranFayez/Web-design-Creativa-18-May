@@ -1,0 +1,92 @@
+/* reset style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light{
+    background-color: #eee;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-center{
+    text-align: center;
+}
+.padding-top-bottom{
+    padding: 2% 0%;
+}
+.d-flex{
+    display: flex;
+}
+.text-white{
+    color: white;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+/* custom style */
+nav ul {
+    /* column-gap: 1.2rem; */
+    width: 30%;
+    /* justify-content: space-between; */
+
+}
+nav img{
+        width: 10rem;
+}
+nav li{
+    /* margin-left: 6%; */
+}
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.flex-container{
+    display: flex;
+    /*flex-wrap : nowrap (default) , wrap , wrap-reverse */
+    flex-wrap: wrap;
+    /* flex-direction ==> row (default) , row-reverse , column , column-reverse */
+    /* flex-flow: flex-direction  flex-wrap; */
+    flex-flow: wrap row;
+    /* justify-content ==> flex-start(default) , flex-end , center , space-between , space-around , space-evenly */
+    justify-content: space-between;
+    /* align-items ==> stretch (default) , flex-start flex-end center baseline */
+    align-items: center;
+        row-gap: 1rem;
+    /* height: 500px; */
+    background: teal;
+
+
+}
+.order-first{
+    order: -1;
+}
+.align-self{
+    align-self: flex-end;
+}
+.card{
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+    box-shadow: 0px 0px 4px gray;
+    /* display: inline-block; */
+}
