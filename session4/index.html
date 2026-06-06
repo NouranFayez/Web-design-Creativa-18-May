@@ -9,10 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/all.min.css">     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div class="bg-blue" id="header"></div>
     <nav class="bg-dark padding-top-bottom">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
@@ -20,8 +25,8 @@
                     <img src="https://preview.colorlib.com/theme/world/img/core-img/logo.png" alt="">
                 </a>
                 <ul class="text-white d-flex justify-content-between">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
+                    <li><a href="#banner">banner</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="">Home</a></li>
                     <li><a href="">Home</a></li>
                     <li><a href="">Home</a></li>
@@ -31,40 +36,87 @@
 
     </nav>
 
-    <section class="bg-light padding-top-bottom">
-        <div class="container">
-            <h2 class="text-center">Services</h2>
-            <div class="flex-container">
-                <div class="card">
-                    <h2>Card 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet atque quisquam, quas saepe sint
-                        facere placeat pariatur earum tempora officiis!</p>
+    <section class="bg-img" id="banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="banner-details text-white">
+                        <h1 class="text-white">AX<span class="text-gold">IT</span></h1>
+                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum esse recusandae dolorum
+                            suscipit magnam beatae atque provident porro corporis !</h2>
+
+                        <hr class="hr-style">
+
+                        <button class="btn-transparent">Download</button>
+
+                    </div>
+                    <form class="banner-form">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+
+                        <i class="fa-solid fa-user circle-icon"></i>
+                    </form>
                 </div>
-                 <div class="card">
-                    <h2>Card 2</h2>
-                  
-                </div>
-                  <div class="card">
-                    <h2>Card 3</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
-                </div>
-                   <div class="card">
-                    <h2>Card 4</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
-                </div>
-                   <div class="card order-first">
-                    <h2>Card 5</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
-                </div>
-                   <div class="card align-self">
-                    <h2>Card 6</h2>
-                </div>
-               
-                
 
             </div>
         </div>
     </section>
+
+    <section class="bg-light padding-top-bottom" id="about">
+        <div class="container">
+            <h2 class="text-center">Services</h2>
+            <div class="flex-container">
+                <div class="card custom-visibilty">
+                    <h2>Card 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet atque quisquam, quas saepe sint
+                        facere placeat pariatur earum tempora officiis!</p>
+                </div>
+                <div class="card">
+                        <img src="images/img.jpg" class="aspect-img" alt="">
+                    <h2>Card 2</h2>
+
+                </div>
+                <div class="card">
+                     
+                        
+                         <div class="position-relative">
+                             <img src="images/img.jpg" class="w-100" alt="">
+                             <button>Read More</button>
+                             <div class="overlay-position"></div>
+                             
+     
+                         </div>
+                 
+                   
+                    <!-- <button>Another button</button> -->
+                    <h2>Card 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                </div>
+                <div class="card">
+                    <h2>Card 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                </div>
+                <div class="card order-first">
+                    <h2>Card 5</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                </div>
+                <div class="card align-self">
+                    <h2>Card 6</h2>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-section">
+
+    </section>
+
+    <a href="#header" class="up-arrow">
+        <i class="fa-solid fa-angle-up"></i>
+
+    </a>
 
 </body>
 
