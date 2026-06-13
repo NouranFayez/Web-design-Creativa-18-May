@@ -1,0 +1,43 @@
+/* rule ==> @media */
+/* type ==> screen print */
+/* condition ==> max-width , min-with , range  */
+/* breakpoint ==> screen sizes */
+
+
+/* 0 : 400 */
+/* @media (max-width:400px){
+    .responsive-card{
+        width: 100%;
+    }
+} */
+
+/* 500 */
+ /* 0 : 767.98 */
+ @media (max-width: 767.98px) { 
+    .responsive-card{
+        width: 50%;
+    }
+ }
+
+/* 0 : 575.98 */
+@media (max-width: 575.98px) { 
+      .responsive-card{
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+ }
+
+
+ @media (min-width:992px){
+    .responsive-card:first-child{
+        background-color: goldenrod;
+    }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 1199.98px) {  }
+
+
+
