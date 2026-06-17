@@ -1,0 +1,18 @@
+
+- CSS Properties
+- direction 
+- :root ==> Pseudo Class 
+- white-space 
+- text-overflow
+- text-shadow
+- background-image: linear-gradient() , radial-gradient() , conic-gradient()
+- word-wrap 
+- word-break
+- writing-mode
+- line-clamp 
+- mask-image
+- box-reflect
+
+- CSS Functions 
+- calc()
+- var() 
