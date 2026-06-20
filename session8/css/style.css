@@ -1,0 +1,12 @@
+.bg-img{
+    background-image: url("https://preview.colorlib.com/theme/world/img/blog-img/b18.jpg");
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.512);
+}
+
+.square{
+    width: 60px;
+    height: 60px;
+}
