@@ -1,0 +1,16 @@
+:root{
+    --main-color:#3d73c4
+}
+
+
+
+.bg-main-color{
+    background-color:var(--main-color) ;
+}
+.accordion-button:not(.collapsed){
+        color: white;
+    background-color: #3d73c4;
+}
+.carousel-item img{
+    height: 600px;
+}
