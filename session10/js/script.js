@@ -10,13 +10,13 @@ var fullName = userName + " " + lastName
 var fullName = `first name = ${userName} 
  last name ${lastName}`
 
- var age = 32
+var age = 32
 
- var isGraduated = false
+var isGraduated = false
 
- var p = null
+var p = null
 
- var r 
+var r
 
 
 // console.log(p)
@@ -100,16 +100,118 @@ var num = 5
 
 
 // falsy values
-var job = null;
-var job = 0;
-var job = -0;
-var job ;
-var job = "";
-var job = false ;
-// truthy values 
-var job = 20 ;
-var job = " ";
-var job = true;
-var job = "Developer" ;
-(!job) ? console.log('correct') : console.log('wrong')
+// var job = null;
+// var job = 0;
+// var job = -0;
+// var job ;
+// var job = "";
+// var job = false ;
+// // truthy values 
+// var job = 20 ;
+// var job = " ";
+// var job = true;
+// var job = "Developer" ;
+// (!job) ? console.log('correct') : console.log('wrong')
+
+
+// var job = "Developer"
+// var result ;
+// (job == "Developer") ? result = "correct" 
+
+// if condition 
+// if(condition){
+//     true ..
+// }
+// else {
+//     false 
+// }
+
+// if(job == "Developer") {
+//     result = "correct"
+//     console.log(result)
+// }
+// else {
+//     result = "wrong"
+//     console.log(result)
+// }
+
+
+// developer , engineer
+
+// var job = prompt('enter your job')
+
+// if(job == "developer" || job == "enginner") console.log('valid user')
+//     else console.log('invalid User')
+
+
+// if (job == "developer") console.log(`welcome developer`)
+// else if (job == "engineer") console.log(`welcome engineer`)
+// else if (job == "Accountant") console.log('welcome Accountant')
+// else console.log('invalid');
+
+
+// var result = (job == "developer") ? "correct" : "wrong";
+
+// var result 
+// if(job == "developer") result = 'correct'
+// else result = 'wrong'
+
+// if(job == ""  || job == null) console.log('enter a job')
+//     else{
+//         if(job == "developer") console.log('dev')
+//         else if(job == "accountant") console.log('accountant')
+//     }
+
+
+
+// switch(variable){
+//     case 1: code 
+//     case 2: code 
+//     case 3: code 
+//     case 4: code 
+//     default : code
+// }
+
+
+//  strict mode ===
+// switch (job) {
+//     case "dev":
+//     case 'DEV':
+//         console.log('developer')
+//         break
+//     case 'eng':
+//         console.log('engineer')
+//         break
+//     case 'doc':
+//         console.log('doctor')
+//         break
+//     case "50": 
+//      console.log('number')
+//         break
+        
+//     default: console.log('invalid user')
+// }
+
+// console.log(1)
+// console.log(2)
+// console.log(3)
+// console.log(4)
+// console.log(5)
+// console.log(6)
+// console.log(7)
+// console.log(8)
+
+
+// for(variable ; condition ; increment/decrement){
+//     code 
+// }
+
+
+for(var i = 1 ; i <= 10 ; i++ ){
+    if(i == 3) continue
+    else if (i == 8) break
+    console.log(i)
+}
+
+
 
