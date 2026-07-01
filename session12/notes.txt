@@ -1,0 +1,9 @@
+
+
+function addUser ==> name , id ,  balance
+
+function withdraw ==> id , newBalance
+
+function transfer ==> fromID , toID , newBalance
+
+function DeleteUser ==> id
